@@ -1,4 +1,4 @@
-18810975968737253
+18815850143889253
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74991,6 +74991,13 @@ Socket Replacement MC68000 DIP 64
 64
 64
 RetroBitLab
+MC68000_REPLACEMENT_FEMALE
+Socket Replacement MC68000 DIP 64
+
+0
+64
+64
+RetroBitLab
 MCP_1827S_TO-220-3_Horizontal_TabDown
 TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Horizontal RM 2.54mm
@@ -75102,6 +75109,20 @@ PSOP14-5x7.40-1.27
 0
 14
 14
+RetroBitLab
+PiStorm_32x6
+
+
+0
+0
+0
+RetroBitLab
+PiStorm_32x6-NEG
+
+
+0
+0
+0
 RetroBitLab
 PinHeader_2x22_P1.27mm_Vertical
 Through hole straight pin header, 2x22, 1.27mm pitch, double rows

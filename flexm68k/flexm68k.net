@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/debian/Progetti/AMIGA/flexm68k/flexm68k/flexm68k.sch)
-    (date "Fri 25 Jun 2021 05:08:02 PM CEST")
+    (date "Sun 27 Jun 2021 11:42:14 AM CEST")
     (tool "Eeschema 5.1.9+dfsg1-1~bpo10+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -40,7 +40,25 @@
       (datasheet ~)
       (libsource (lib Device) (part LED_Small) (description "Light emitting diode, small symbol"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 60DD3089)))
+      (tstamp 60DD3089))
+    (comp (ref L1)
+      (value "GNU GPL LOGO")
+      (footprint RetroBitLab:Symbol_GNU-GPL_SilkScreen_Small)
+      (libsource (lib AmigaComponents) (part LOGO) (description "Any valid LOGO Images can be placed here"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60D88A62))
+    (comp (ref L3)
+      (value "KiCad Logo")
+      (footprint Symbol:KiCad-Logo2_6mm_SilkScreen)
+      (libsource (lib AmigaComponents) (part LOGO) (description "Any valid LOGO Images can be placed here"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60D8ADA7))
+    (comp (ref L2)
+      (value "AMIGA LOGO")
+      (footprint RetroBitLab:amigaLogo_BW_31x12mm)
+      (libsource (lib AmigaComponents) (part LOGO) (description "Any valid LOGO Images can be placed here"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60D8C236)))
   (libparts
     (libpart (lib AmigaComponents) (part FPC-FFC-64)
       (fields
@@ -112,6 +130,11 @@
         (pin (num 62) (name P62) (type input))
         (pin (num 63) (name P63) (type input))
         (pin (num 64) (name P64) (type input))))
+    (libpart (lib AmigaComponents) (part LOGO)
+      (description "Any valid LOGO Images can be placed here")
+      (fields
+        (field (name Reference) L)
+        (field (name Value) LOGO)))
     (libpart (lib AmigaComponents) (part MC68000)
       (footprints
         (fp dip64_800_MOT))
