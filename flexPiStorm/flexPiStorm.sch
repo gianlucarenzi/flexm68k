@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Secondary CPU Flexible Relocator"
-Date "2021-06-25"
-Rev "0.1"
+Date "2021-06-27"
+Rev "0.2"
 Comp "RETROBIT LAB"
 Comment1 "FlexPiStorm"
 Comment2 ""
@@ -523,46 +523,46 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60E64491
-P 8350 1550
-F 0 "H1" H 8450 1600 50  0000 L CNN
-F 1 "MountingHole" H 8450 1550 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8350 1550 50  0001 C CNN
-F 3 "~" H 8350 1550 50  0001 C CNN
-	1    8350 1550
-	1    0    0    -1  
+P 9400 1500
+F 0 "H1" H 9500 1550 50  0000 L CNN
+F 1 "MountingHole" H 9500 1500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9400 1500 50  0001 C CNN
+F 3 "~" H 9400 1500 50  0001 C CNN
+	1    9400 1500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60E64C09
-P 8350 1850
-F 0 "H2" H 8450 1900 50  0000 L CNN
-F 1 "MountingHole" H 8450 1850 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8350 1850 50  0001 C CNN
-F 3 "~" H 8350 1850 50  0001 C CNN
-	1    8350 1850
-	1    0    0    -1  
+P 9700 1500
+F 0 "H2" H 9800 1550 50  0000 L CNN
+F 1 "MountingHole" H 9800 1500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9700 1500 50  0001 C CNN
+F 3 "~" H 9700 1500 50  0001 C CNN
+	1    9700 1500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 60E64DD7
-P 8350 2150
-F 0 "H3" H 8450 2200 50  0000 L CNN
-F 1 "MountingHole" H 8450 2150 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8350 2150 50  0001 C CNN
-F 3 "~" H 8350 2150 50  0001 C CNN
-	1    8350 2150
-	1    0    0    -1  
+P 10000 1500
+F 0 "H3" H 10100 1550 50  0000 L CNN
+F 1 "MountingHole" H 10100 1500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10000 1500 50  0001 C CNN
+F 3 "~" H 10000 1500 50  0001 C CNN
+	1    10000 1500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 60E65040
-P 8350 2500
-F 0 "H4" H 8450 2550 50  0000 L CNN
-F 1 "MountingHole" H 8450 2500 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8350 2500 50  0001 C CNN
-F 3 "~" H 8350 2500 50  0001 C CNN
-	1    8350 2500
-	1    0    0    -1  
+P 10350 1500
+F 0 "H4" H 10450 1550 50  0000 L CNN
+F 1 "MountingHole" H 10450 1500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10350 1500 50  0001 C CNN
+F 3 "~" H 10350 1500 50  0001 C CNN
+	1    10350 1500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D1
@@ -593,4 +593,59 @@ Wire Wire Line
 	1150 3100 1150 3200
 Wire Wire Line
 	1150 3200 2000 3200
+Wire Notes Line
+	9050 800  9050 1750
+Wire Notes Line
+	9050 1750 10550 1750
+Wire Notes Line
+	10550 1750 10550 800 
+Wire Notes Line
+	10550 800  9050 800 
+Text Notes 9050 1900 0    79   ~ 16
+MOUNTING HOLES 3.2mm
+$Comp
+L AmigaComponents:LOGO L1
+U 1 1 60D96003
+P 9000 2550
+F 0 "L1" H 9150 2650 59  0000 L CNN
+F 1 "GNU GPL LOGO" H 9150 2500 59  0000 L CNN
+F 2 "RetroBitLab:Symbol_GNU-GPL_SilkScreen_Small" H 9000 2550 59  0001 C CNN
+F 3 "" H 9000 2550 59  0001 C CNN
+	1    9000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L AmigaComponents:LOGO L2
+U 1 1 60D96862
+P 9000 2850
+F 0 "L2" H 9150 2950 59  0000 L CNN
+F 1 "KiCad LOGO Design" H 9150 2800 59  0000 L CNN
+F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 9000 2850 59  0001 C CNN
+F 3 "" H 9000 2850 59  0001 C CNN
+	1    9000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AmigaComponents:LOGO L3
+U 1 1 60D96C34
+P 9000 3150
+F 0 "L3" H 9150 3250 59  0000 L CNN
+F 1 "PiStorm LOGO Design" H 9150 3100 59  0000 L CNN
+F 2 "RetroBitLab:PiStorm_32x6-NEG" H 9000 3150 59  0001 C CNN
+F 3 "" H 9000 3150 59  0001 C CNN
+	1    9000 3150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9050 2300 9050 3350
+Wire Notes Line
+	9050 3350 10550 3350
+Wire Notes Line
+	10550 3350 10550 2300
+Wire Notes Line
+	10550 2300 9050 2300
+Text Notes 9050 3500 0    79   ~ 16
+LOGO FOR SILKSCREEN
+Text Notes 750  3700 0    79   ~ 16
+FLOPPY HEADER MOLEX 4 PIN CONNECTOR TYPE
 $EndSCHEMATC
