@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.9+dfsg1-1~bpo10+1"
     },
-    "CreationDate":  "2021-06-25T21:43:00+02:00"
+    "CreationDate":  "2021-06-27T11:52:40+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "flexm68k",
       "GUID": "666c6578-6d36-4386-9b2e-6b696361645f",
-      "Revision": "0.1"
+      "Revision": "0.2"
     },
     "Size":
     {
