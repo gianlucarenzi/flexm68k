@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Secondary CPU Flexible Relocator"
-Date "2021-06-27"
-Rev "0.2"
+Date "2021-06-28"
+Rev "0.3"
 Comp "RETROBIT LAB"
 Comment1 "FlexPiStorm"
 Comment2 ""
@@ -648,4 +648,96 @@ Text Notes 9050 3500 0    79   ~ 16
 LOGO FOR SILKSCREEN
 Text Notes 750  3700 0    79   ~ 16
 FLOPPY HEADER MOLEX 4 PIN CONNECTOR TYPE
+$Comp
+L Device:C_Small C1
+U 1 1 60DA364B
+P 1600 1300
+F 0 "C1" H 1692 1346 50  0000 L CNN
+F 1 "10000pF" H 1692 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1600 1300 50  0001 C CNN
+F 3 "~" H 1600 1300 50  0001 C CNN
+	1    1600 1300
+	1    0    0    -1  
+$EndComp
+Text Label 1600 1150 2    50   ~ 0
+P27
+Text Label 1600 1500 2    50   ~ 0
+P31
+$Comp
+L power:GND #PWR04
+U 1 1 60DA402B
+P 1600 1550
+F 0 "#PWR04" H 1600 1300 50  0001 C CNN
+F 1 "GND" H 1650 1350 50  0000 C CNN
+F 2 "" H 1600 1550 50  0001 C CNN
+F 3 "" H 1600 1550 50  0001 C CNN
+	1    1600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 60DA440B
+P 1600 1050
+F 0 "#PWR03" H 1600 900 50  0001 C CNN
+F 1 "VCC" H 1650 1250 50  0000 C CNN
+F 2 "" H 1600 1050 50  0001 C CNN
+F 3 "" H 1600 1050 50  0001 C CNN
+	1    1600 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1050 1600 1200
+Wire Wire Line
+	1600 1400 1600 1550
+$Comp
+L Device:C_Small C2
+U 1 1 60DC5962
+P 2200 1300
+F 0 "C2" H 2292 1346 50  0000 L CNN
+F 1 "10000pF" H 2292 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2200 1300 50  0001 C CNN
+F 3 "~" H 2200 1300 50  0001 C CNN
+	1    2200 1300
+	1    0    0    -1  
+$EndComp
+Text Label 2200 1150 2    50   ~ 0
+P32
+Text Label 2200 1500 2    50   ~ 0
+P24
+$Comp
+L power:GND #PWR06
+U 1 1 60DC5A8A
+P 2200 1550
+F 0 "#PWR06" H 2200 1300 50  0001 C CNN
+F 1 "GND" H 2250 1350 50  0000 C CNN
+F 2 "" H 2200 1550 50  0001 C CNN
+F 3 "" H 2200 1550 50  0001 C CNN
+	1    2200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 60DC5A94
+P 2200 1050
+F 0 "#PWR05" H 2200 900 50  0001 C CNN
+F 1 "VCC" H 2250 1250 50  0000 C CNN
+F 2 "" H 2200 1050 50  0001 C CNN
+F 3 "" H 2200 1050 50  0001 C CNN
+	1    2200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1050 2200 1200
+Wire Wire Line
+	2200 1400 2200 1550
+Wire Notes Line
+	1300 700  1300 1850
+Wire Notes Line
+	1300 1850 2800 1850
+Wire Notes Line
+	2800 1850 2800 700 
+Wire Notes Line
+	2800 700  1300 700 
+Text Notes 900  2050 0    79   ~ 16
+POWER SUPPLY BYPASS CAPACITORS
 $EndSCHEMATC
