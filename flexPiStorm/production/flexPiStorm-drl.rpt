@@ -1,5 +1,5 @@
-Drill report for /home/debian/Progetti/AMIGA/flexm68k/flexPiStorm/flexPiStorm.kicad_pcb
-Created on Sun 27 Jun 2021 12:24:25 PM CEST
+Drill report for /home/debian/Progetti/Amiga/flexm68k/flexPiStorm/flexPiStorm.kicad_pcb
+Created on Mon 28 Jun 2021 04:21:11 PM CEST
 
 Copper Layer Stackup:
     =============================================================
@@ -10,11 +10,11 @@ Copper Layer Stackup:
 Drill file 'flexPiStorm-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (3 holes)
+    T1  0.40mm  0.016"  (5 holes)
     T2  0.81mm  0.032"  (64 holes)
     T3  1.00mm  0.039"  (4 holes)
 
-    Total plated holes count 71
+    Total plated holes count 73
 
 
 Drill file 'flexPiStorm-NPTH.drl' contains
