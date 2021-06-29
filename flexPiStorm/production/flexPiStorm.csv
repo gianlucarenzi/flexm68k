@@ -8,4 +8,5 @@
 7;"L1";"Symbol_GNU-GPL_SilkScreen_Small";1;"GNU GPL LOGO";;;
 8;"L2";"KiCad-Logo2_6mm_SilkScreen";1;"KiCad LOGO Design";;;
 9;"L3";"PiStorm_32x6-NEG";1;"PiStorm LOGO Design";;;
-10;"C1,C2";"C_1206_3216Metric_Pad1.33x1.80mm_HandSolder";2;"10000pF";;;
+10;"C1,C2";"C_1206_3216Metric_Pad1.33x1.80mm_HandSolder";2;"100nF";;;
+11;"C3,C4";"CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder";2;"10uF";;;
