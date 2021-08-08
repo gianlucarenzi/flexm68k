@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Secondary CPU Flexible Relocator"
-Date "2021-06-29"
-Rev "0.4"
+Date "2021-08-08"
+Rev "0.5"
 Comp "RETROBIT LAB"
 Comment1 "FlexPiStorm"
 Comment2 ""
@@ -30,7 +30,7 @@ U 1 1 60D627B1
 P 5500 3000
 F 0 "U1" H 5500 4950 60  0000 C CNN
 F 1 "MC68000" H 5500 4850 60  0000 C CNN
-F 2 "RetroBitLab:MC68000_REPLACEMENT_FEMALE" H 5500 4790 60  0001 C CNN
+F 2 "RetroBitLab:MC68000-SOCKET-RELOCATOR_FEMALE" H 5500 4790 60  0001 C CNN
 F 3 "" H 4300 4550 60  0000 C CNN
 	1    5500 3000
 	1    0    0    -1  

@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 649)
+    (start_pass_no 378)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -60,7 +60,7 @@
     )
     (circuit 
       (use_layer F.Cu B.Cu)
-      (length 29.0 25.0)
+      (length 28000.0 25000.0)
     )
   )
   (class "kicad_default"
@@ -72,6 +72,7 @@
     /P42 /P43 /P44 /P45 /P46 /P47 /P48 /P49
     /P50 /P51 /P52 /P53 /P54 /P55 /P56 /P57
     /P58 /P59 /P60 /P61 /P62 /P63 /P64 "Net-(J2-Pad0)"
+    "Net-(D1-Pad1)" "Net-(J2-Pad65)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -79,7 +80,7 @@
     )
     (circuit 
       (use_layer F.Cu B.Cu)
-      (length 29.0 25.0)
+      (length 28000.0 25000.0)
     )
   )
 )

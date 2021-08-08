@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Primary CPU Flex Connector"
-Date "2021-06-27"
-Rev "0.2"
+Date "2021-08-08"
+Rev "0.3"
 Comp "RetroBitLab"
 Comment1 ""
 Comment2 ""
@@ -30,7 +30,7 @@ U 1 1 60D5EEC3
 P 4300 2900
 F 0 "U1" H 3450 4750 60  0000 C CNN
 F 1 "MC68000" H 4300 4200 60  0000 C CNN
-F 2 "RetroBitLab:DIP-64_W22.86mm_Socket_LongPads_Socket" H 5500 3140 60  0001 C CNN
+F 2 "RetroBitLab:MC68000-RELOCATOR-MALE" H 5500 3140 60  0001 C CNN
 F 3 "" H 4300 2900 60  0000 C CNN
 	1    4300 2900
 	1    0    0    -1  
