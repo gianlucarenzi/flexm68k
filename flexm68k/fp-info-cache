@@ -1,4 +1,4 @@
-18815850143889253
+18817482254244253
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74578,6 +74578,13 @@ THT crystalHC-49-4H
 2
 2
 RetroBitLab
+DIP-64_W22.86mm_Socket_LongPads_Socket
+64-lead dip package, row spacing 22.86 mm (900 mils), Socket, LongPads
+DIL DIP PDIP 2.54mm 22.86mm 900mil Socket LongPads
+0
+64
+64
+RetroBitLab
 DIP_Socket-14_W4.3_W5.08_W7.62_W10.16_W10.9_3M_214-3339-00-0602J
 3M 14-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
 THT DIP DIL ZIF 7.62mm 300mil Socket
@@ -74821,7 +74828,7 @@ FH52E-64S-0.5SH(99) Hirose Electric Co Ltd CONN FFC 64POS 0.5MM SMD
 
 0
 66
-65
+66
 RetroBitLab
 HDSM-441B_HDSM-443B
 2 Digit 7 segemnt blue LED, right hand decimal, https://docs.broadcom.com/docs/AV02-1589EN
