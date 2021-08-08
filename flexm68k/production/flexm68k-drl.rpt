@@ -1,5 +1,5 @@
 Drill report for /home/debian/Progetti/AMIGA/flexm68k/flexm68k/flexm68k.kicad_pcb
-Created on Sun 27 Jun 2021 11:52:31 AM CEST
+Created on Sun 08 Aug 2021 09:27:53 PM CEST
 
 Copper Layer Stackup:
     =============================================================
@@ -11,7 +11,7 @@ Drill file 'flexm68k-PTH.drl' contains
     plated through holes:
     =============================================================
     T1  0.40mm  0.016"  (1 hole)
-    T2  0.81mm  0.032"  (64 holes)
+    T2  0.80mm  0.031"  (64 holes)
 
     Total plated holes count 65
 
