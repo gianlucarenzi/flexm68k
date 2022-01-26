@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Secondary CPU Flexible Relocator"
-Date "2021-08-08"
-Rev "0.5"
+Date "2022-01-26"
+Rev "v2022.01.26"
 Comp "RETROBIT LAB"
 Comment1 "FlexPiStorm"
-Comment2 ""
+Comment2 "FFC/FPC inverted pinout for reverse mounting"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -163,262 +163,262 @@ Text Label 4300 4550 2    50   ~ 0
 P63
 Text Label 6700 4550 0    50   ~ 0
 P64
-Text Label 8950 5500 3    50   ~ 0
-P1
-Text Label 8850 5500 3    50   ~ 0
-P2
-Text Label 8750 5500 3    50   ~ 0
-P3
-Text Label 8650 5500 3    50   ~ 0
-P4
-Text Label 8550 5500 3    50   ~ 0
-P5
-Text Label 8450 5500 3    50   ~ 0
-P6
-Text Label 8350 5500 3    50   ~ 0
-P7
-Text Label 8250 5500 3    50   ~ 0
-P8
-Text Label 8150 5500 3    50   ~ 0
-P9
-Text Label 8050 5500 3    50   ~ 0
-P10
-Text Label 7950 5500 3    50   ~ 0
-P11
-Text Label 7850 5500 3    50   ~ 0
-P12
-Text Label 7750 5500 3    50   ~ 0
-P13
-Text Label 7650 5500 3    50   ~ 0
-P14
-Text Label 7550 5500 3    50   ~ 0
-P15
-Text Label 7450 5500 3    50   ~ 0
-P16
-Text Label 7350 5500 3    50   ~ 0
-P17
-Text Label 7250 5500 3    50   ~ 0
-P18
-Text Label 7150 5500 3    50   ~ 0
-P19
-Text Label 7050 5500 3    50   ~ 0
-P20
-Text Label 6950 5500 3    50   ~ 0
-P21
-Text Label 6850 5500 3    50   ~ 0
-P22
-Text Label 6750 5500 3    50   ~ 0
-P23
-Text Label 6650 5500 3    50   ~ 0
-P24
-Text Label 6550 5500 3    50   ~ 0
-P25
-Text Label 6450 5500 3    50   ~ 0
-P26
-Text Label 6350 5500 3    50   ~ 0
-P27
-Text Label 6250 5500 3    50   ~ 0
-P28
-Text Label 6150 5500 3    50   ~ 0
-P29
-Text Label 6050 5500 3    50   ~ 0
-P30
-Text Label 5950 5500 3    50   ~ 0
-P31
-Text Label 5850 5500 3    50   ~ 0
-P32
-Text Label 5750 5500 3    50   ~ 0
-P33
-Text Label 5650 5500 3    50   ~ 0
-P34
-Text Label 5550 5500 3    50   ~ 0
-P35
-Text Label 5450 5500 3    50   ~ 0
-P36
-Text Label 5350 5500 3    50   ~ 0
-P37
-Text Label 5250 5500 3    50   ~ 0
-P38
-Text Label 5150 5500 3    50   ~ 0
-P39
-Text Label 5050 5500 3    50   ~ 0
-P40
-Text Label 4950 5500 3    50   ~ 0
-P41
-Text Label 4850 5500 3    50   ~ 0
-P42
-Text Label 4750 5500 3    50   ~ 0
-P43
-Text Label 4650 5500 3    50   ~ 0
-P44
-Text Label 4550 5500 3    50   ~ 0
-P45
-Text Label 4450 5500 3    50   ~ 0
-P46
-Text Label 4350 5500 3    50   ~ 0
-P47
-Text Label 4250 5500 3    50   ~ 0
-P48
-Text Label 4150 5500 3    50   ~ 0
-P49
-Text Label 4050 5500 3    50   ~ 0
-P50
-Text Label 3950 5500 3    50   ~ 0
-P51
-Text Label 3850 5500 3    50   ~ 0
-P52
-Text Label 3750 5500 3    50   ~ 0
-P53
-Text Label 3650 5500 3    50   ~ 0
-P54
-Text Label 3550 5500 3    50   ~ 0
-P55
-Text Label 3450 5500 3    50   ~ 0
-P56
-Text Label 3350 5500 3    50   ~ 0
-P57
-Text Label 3250 5500 3    50   ~ 0
-P58
-Text Label 3150 5500 3    50   ~ 0
-P59
-Text Label 3050 5500 3    50   ~ 0
-P60
-Text Label 2950 5500 3    50   ~ 0
-P61
-Text Label 2850 5500 3    50   ~ 0
-P62
-Text Label 2750 5500 3    50   ~ 0
-P63
 Text Label 2650 5500 3    50   ~ 0
+P1
+Text Label 2750 5500 3    50   ~ 0
+P2
+Text Label 2850 5500 3    50   ~ 0
+P3
+Text Label 2950 5500 3    50   ~ 0
+P4
+Text Label 3050 5500 3    50   ~ 0
+P5
+Text Label 3150 5500 3    50   ~ 0
+P6
+Text Label 3250 5500 3    50   ~ 0
+P7
+Text Label 3350 5500 3    50   ~ 0
+P8
+Text Label 3450 5500 3    50   ~ 0
+P9
+Text Label 3550 5500 3    50   ~ 0
+P10
+Text Label 3650 5500 3    50   ~ 0
+P11
+Text Label 3750 5500 3    50   ~ 0
+P12
+Text Label 3850 5500 3    50   ~ 0
+P13
+Text Label 3950 5500 3    50   ~ 0
+P14
+Text Label 4050 5500 3    50   ~ 0
+P15
+Text Label 4150 5500 3    50   ~ 0
+P16
+Text Label 4250 5500 3    50   ~ 0
+P17
+Text Label 4350 5500 3    50   ~ 0
+P18
+Text Label 4450 5500 3    50   ~ 0
+P19
+Text Label 4550 5500 3    50   ~ 0
+P20
+Text Label 4650 5500 3    50   ~ 0
+P21
+Text Label 4750 5500 3    50   ~ 0
+P22
+Text Label 4850 5500 3    50   ~ 0
+P23
+Text Label 4950 5500 3    50   ~ 0
+P24
+Text Label 5050 5500 3    50   ~ 0
+P25
+Text Label 5150 5500 3    50   ~ 0
+P26
+Text Label 5250 5500 3    50   ~ 0
+P27
+Text Label 5350 5500 3    50   ~ 0
+P28
+Text Label 5450 5500 3    50   ~ 0
+P29
+Text Label 5550 5500 3    50   ~ 0
+P30
+Text Label 5650 5500 3    50   ~ 0
+P31
+Text Label 5750 5500 3    50   ~ 0
+P32
+Text Label 5850 5500 3    50   ~ 0
+P33
+Text Label 5950 5500 3    50   ~ 0
+P34
+Text Label 6050 5500 3    50   ~ 0
+P35
+Text Label 6150 5500 3    50   ~ 0
+P36
+Text Label 6250 5500 3    50   ~ 0
+P37
+Text Label 6350 5500 3    50   ~ 0
+P38
+Text Label 6450 5500 3    50   ~ 0
+P39
+Text Label 6550 5500 3    50   ~ 0
+P40
+Text Label 6650 5500 3    50   ~ 0
+P41
+Text Label 6750 5500 3    50   ~ 0
+P42
+Text Label 6850 5500 3    50   ~ 0
+P43
+Text Label 6950 5500 3    50   ~ 0
+P44
+Text Label 7050 5500 3    50   ~ 0
+P45
+Text Label 7150 5500 3    50   ~ 0
+P46
+Text Label 7250 5500 3    50   ~ 0
+P47
+Text Label 7350 5500 3    50   ~ 0
+P48
+Text Label 7450 5500 3    50   ~ 0
+P49
+Text Label 7550 5500 3    50   ~ 0
+P50
+Text Label 7650 5500 3    50   ~ 0
+P51
+Text Label 7750 5500 3    50   ~ 0
+P52
+Text Label 7850 5500 3    50   ~ 0
+P53
+Text Label 7950 5500 3    50   ~ 0
+P54
+Text Label 8050 5500 3    50   ~ 0
+P55
+Text Label 8150 5500 3    50   ~ 0
+P56
+Text Label 8250 5500 3    50   ~ 0
+P57
+Text Label 8350 5500 3    50   ~ 0
+P58
+Text Label 8450 5500 3    50   ~ 0
+P59
+Text Label 8550 5500 3    50   ~ 0
+P60
+Text Label 8650 5500 3    50   ~ 0
+P61
+Text Label 8750 5500 3    50   ~ 0
+P62
+Text Label 8850 5500 3    50   ~ 0
+P63
+Text Label 8950 5500 3    50   ~ 0
 P64
 Wire Wire Line
-	8950 5500 8950 5800
-Wire Wire Line
-	8850 5500 8850 5800
-Wire Wire Line
-	8750 5500 8750 5800
-Wire Wire Line
-	8650 5500 8650 5800
-Wire Wire Line
-	8550 5500 8550 5800
-Wire Wire Line
-	8450 5500 8450 5800
-Wire Wire Line
-	8350 5500 8350 5800
-Wire Wire Line
-	8250 5500 8250 5800
-Wire Wire Line
-	8150 5500 8150 5800
-Wire Wire Line
-	8050 5500 8050 5800
-Wire Wire Line
-	7950 5500 7950 5800
-Wire Wire Line
-	7850 5500 7850 5800
-Wire Wire Line
-	7750 5500 7750 5800
-Wire Wire Line
-	7650 5500 7650 5800
-Wire Wire Line
-	7550 5500 7550 5800
-Wire Wire Line
-	7450 5500 7450 5800
-Wire Wire Line
-	7350 5500 7350 5800
-Wire Wire Line
-	7250 5500 7250 5800
-Wire Wire Line
-	7150 5500 7150 5800
-Wire Wire Line
-	7050 5500 7050 5800
-Wire Wire Line
-	6950 5500 6950 5800
-Wire Wire Line
-	6850 5500 6850 5800
-Wire Wire Line
-	6750 5500 6750 5800
-Wire Wire Line
-	6650 5500 6650 5800
-Wire Wire Line
-	6550 5500 6550 5800
-Wire Wire Line
-	6450 5500 6450 5800
-Wire Wire Line
-	6350 5500 6350 5800
-Wire Wire Line
-	6250 5500 6250 5800
-Wire Wire Line
-	6150 5500 6150 5800
-Wire Wire Line
-	6050 5500 6050 5800
-Wire Wire Line
-	5950 5500 5950 5800
-Wire Wire Line
-	5850 5500 5850 5800
-Wire Wire Line
-	5750 5500 5750 5800
-Wire Wire Line
-	5650 5500 5650 5800
-Wire Wire Line
-	5550 5500 5550 5800
-Wire Wire Line
-	5450 5500 5450 5800
-Wire Wire Line
-	5350 5500 5350 5800
-Wire Wire Line
-	5250 5500 5250 5800
-Wire Wire Line
-	5150 5500 5150 5800
-Wire Wire Line
-	5050 5500 5050 5800
-Wire Wire Line
-	4950 5500 4950 5800
-Wire Wire Line
-	4850 5500 4850 5800
-Wire Wire Line
-	4750 5500 4750 5800
-Wire Wire Line
-	4650 5500 4650 5800
-Wire Wire Line
-	4550 5500 4550 5800
-Wire Wire Line
-	4450 5500 4450 5800
-Wire Wire Line
-	4350 5500 4350 5800
-Wire Wire Line
-	4250 5500 4250 5800
-Wire Wire Line
-	4150 5500 4150 5800
-Wire Wire Line
-	4050 5500 4050 5800
-Wire Wire Line
-	3950 5500 3950 5800
-Wire Wire Line
-	3850 5500 3850 5800
-Wire Wire Line
-	3750 5500 3750 5800
-Wire Wire Line
-	3650 5500 3650 5800
-Wire Wire Line
-	3550 5500 3550 5800
-Wire Wire Line
-	3450 5500 3450 5800
-Wire Wire Line
-	3350 5500 3350 5800
-Wire Wire Line
-	3250 5500 3250 5800
-Wire Wire Line
-	3150 5500 3150 5800
-Wire Wire Line
-	3050 5500 3050 5800
-Wire Wire Line
-	2950 5500 2950 5800
-Wire Wire Line
-	2850 5500 2850 5800
+	2650 5500 2650 5800
 Wire Wire Line
 	2750 5500 2750 5800
 Wire Wire Line
-	2650 5500 2650 5800
+	2850 5500 2850 5800
+Wire Wire Line
+	2950 5500 2950 5800
+Wire Wire Line
+	3050 5500 3050 5800
+Wire Wire Line
+	3150 5500 3150 5800
+Wire Wire Line
+	3250 5500 3250 5800
+Wire Wire Line
+	3350 5500 3350 5800
+Wire Wire Line
+	3450 5500 3450 5800
+Wire Wire Line
+	3550 5500 3550 5800
+Wire Wire Line
+	3650 5500 3650 5800
+Wire Wire Line
+	3750 5500 3750 5800
+Wire Wire Line
+	3850 5500 3850 5800
+Wire Wire Line
+	3950 5500 3950 5800
+Wire Wire Line
+	4050 5500 4050 5800
+Wire Wire Line
+	4150 5500 4150 5800
+Wire Wire Line
+	4250 5500 4250 5800
+Wire Wire Line
+	4350 5500 4350 5800
+Wire Wire Line
+	4450 5500 4450 5800
+Wire Wire Line
+	4550 5500 4550 5800
+Wire Wire Line
+	4650 5500 4650 5800
+Wire Wire Line
+	4750 5500 4750 5800
+Wire Wire Line
+	4850 5500 4850 5800
+Wire Wire Line
+	4950 5500 4950 5800
+Wire Wire Line
+	5050 5500 5050 5800
+Wire Wire Line
+	5150 5500 5150 5800
+Wire Wire Line
+	5250 5500 5250 5800
+Wire Wire Line
+	5350 5500 5350 5800
+Wire Wire Line
+	5450 5500 5450 5800
+Wire Wire Line
+	5550 5500 5550 5800
+Wire Wire Line
+	5650 5500 5650 5800
+Wire Wire Line
+	5750 5500 5750 5800
+Wire Wire Line
+	5850 5500 5850 5800
+Wire Wire Line
+	5950 5500 5950 5800
+Wire Wire Line
+	6050 5500 6050 5800
+Wire Wire Line
+	6150 5500 6150 5800
+Wire Wire Line
+	6250 5500 6250 5800
+Wire Wire Line
+	6350 5500 6350 5800
+Wire Wire Line
+	6450 5500 6450 5800
+Wire Wire Line
+	6550 5500 6550 5800
+Wire Wire Line
+	6650 5500 6650 5800
+Wire Wire Line
+	6750 5500 6750 5800
+Wire Wire Line
+	6850 5500 6850 5800
+Wire Wire Line
+	6950 5500 6950 5800
+Wire Wire Line
+	7050 5500 7050 5800
+Wire Wire Line
+	7150 5500 7150 5800
+Wire Wire Line
+	7250 5500 7250 5800
+Wire Wire Line
+	7350 5500 7350 5800
+Wire Wire Line
+	7450 5500 7450 5800
+Wire Wire Line
+	7550 5500 7550 5800
+Wire Wire Line
+	7650 5500 7650 5800
+Wire Wire Line
+	7750 5500 7750 5800
+Wire Wire Line
+	7850 5500 7850 5800
+Wire Wire Line
+	7950 5500 7950 5800
+Wire Wire Line
+	8050 5500 8050 5800
+Wire Wire Line
+	8150 5500 8150 5800
+Wire Wire Line
+	8250 5500 8250 5800
+Wire Wire Line
+	8350 5500 8350 5800
+Wire Wire Line
+	8450 5500 8450 5800
+Wire Wire Line
+	8550 5500 8550 5800
+Wire Wire Line
+	8650 5500 8650 5800
+Wire Wire Line
+	8750 5500 8750 5800
+Wire Wire Line
+	8850 5500 8850 5800
+Wire Wire Line
+	8950 5500 8950 5800
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 60DCF084
@@ -782,4 +782,6 @@ Wire Notes Line
 	3100 1850 3100 650 
 Wire Notes Line
 	3100 650  850  650 
+Text Notes 1025 5165 0    79   ~ 0
+FPC/FFC same side flat cable MUST BE USED\nAll signals are inverted here!
 $EndSCHEMATC

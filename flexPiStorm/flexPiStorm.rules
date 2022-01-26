@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 378)
+    (start_pass_no 787)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -60,7 +60,7 @@
     )
     (circuit 
       (use_layer F.Cu B.Cu)
-      (length 28000.0 25000.0)
+      (length 26.0 25.0)
     )
   )
   (class "kicad_default"
@@ -80,7 +80,7 @@
     )
     (circuit 
       (use_layer F.Cu B.Cu)
-      (length 28000.0 25000.0)
+      (length 26.0 25.0)
     )
   )
 )
