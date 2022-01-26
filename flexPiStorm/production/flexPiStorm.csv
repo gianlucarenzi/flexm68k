@@ -1,7 +1,7 @@
 "Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"J1";"PinHeader_1x04_P2.54mm_Horizontal";1;"Conn_01x04";;;
-2;"J2";"FPC_64";1;"FPC-FFC-64";;;
-3;"U1";"MC68000_REPLACEMENT_FEMALE";1;"MC68000";;;
+1;"J2";"FPC_64";1;"FPC-FFC-64";;;
+2;"U1";"MC68000-SOCKET-RELOCATOR_FEMALE";1;"MC68000";;;
+3;"J1";"PinHeader_1x04_P2.54mm_Horizontal";1;"Conn_01x04";;;
 4;"H1,H2,H3,H4";"MountingHole_3.2mm_M3";4;"MountingHole";;;
 5;"D1";"LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder";1;"LED_Small";;;
 6;"R1";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";1;"1K";;;
