@@ -5,13 +5,13 @@
   )
   (autoroute_settings
     (fanout off)
-    (eu.mihosoft.freerouting.autoroute on)
+    (app.freerouting.autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 787)
+    (start_pass_no 5)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -60,7 +60,7 @@
     )
     (circuit 
       (use_layer F.Cu B.Cu)
-      (length 26.0 25.0)
+      (length 26000.0 24000.0)
     )
   )
   (class "kicad_default"
@@ -80,7 +80,7 @@
     )
     (circuit 
       (use_layer F.Cu B.Cu)
-      (length 26.0 25.0)
+      (length 26000.0 24000.0)
     )
   )
 )

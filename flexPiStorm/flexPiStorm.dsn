@@ -817,6 +817,5 @@
     )
   )
   (wiring
-    (wire (path B.Cu 250  138980 -84230  139000 -84250)(net /P64)(type protect))
   )
 )
