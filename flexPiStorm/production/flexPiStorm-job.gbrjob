@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.9+dfsg1-1"
     },
-    "CreationDate":  "2022-01-26T16:30:19+01:00"
+    "CreationDate":  "2022-02-08T20:28:24+01:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "flexPiStorm",
       "GUID": "666c6578-5069-4537-946f-726d2e6b6963",
-      "Revision": "0.5"
+      "Revision": "v2022.02.08"
     },
     "Size":
     {
