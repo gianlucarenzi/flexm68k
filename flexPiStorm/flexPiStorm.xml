@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/debian/Progetti/AMIGA/flexm68k/flexPiStorm/flexPiStorm.sch</source>
+    <date>Tue 08 Feb 2022 08:29:11 PM CET</date>
+    <tool>Eeschema 5.1.9+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Secondary CPU Flexible Relocator</title>
+        <company>RETROBIT LAB</company>
+        <rev>v2022.01.26</rev>
+        <date>2022-01-26</date>
+        <source>flexPiStorm.sch</source>
+        <comment number="1" value="FlexPiStorm"/>
+        <comment number="2" value="FFC/FPC inverted pinout for reverse mounting"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>FPC-FFC-64</value>
+      <footprint>RetroBitLab:FPC_64</footprint>
+      <libsource lib="AmigaComponents" part="FPC-FFC-64" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D60825</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MC68000</value>
+      <footprint>RetroBitLab:MC68000-SOCKET-RELOCATOR_FEMALE</footprint>
+      <libsource lib="AmigaComponents" part="MC68000" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D627B1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DCF084</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E64491</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E64C09</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E64DD7</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E65040</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_Small</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7896E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7984D</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>GNU GPL LOGO</value>
+      <footprint>RetroBitLab:Symbol_GNU-GPL_SilkScreen_Small</footprint>
+      <libsource lib="AmigaComponents" part="LOGO" description="Any valid LOGO Images can be placed here"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D96003</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>KiCad LOGO Design</value>
+      <footprint>Symbol:KiCad-Logo2_6mm_SilkScreen</footprint>
+      <libsource lib="AmigaComponents" part="LOGO" description="Any valid LOGO Images can be placed here"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D96862</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>PiStorm LOGO Design</value>
+      <footprint>RetroBitLab:PiStorm_32x6-NEG</footprint>
+      <libsource lib="AmigaComponents" part="LOGO" description="Any valid LOGO Images can be placed here"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D96C34</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DA364B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DC5962</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DB1E15</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DB2236</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AmigaComponents" part="FPC-FFC-64">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FPC-FFC-64</field>
+      </fields>
+      <pins>
+        <pin num="0" name="HOLD" type="NotConnected"/>
+        <pin num="1" name="P1" type="input"/>
+        <pin num="2" name="P2" type="input"/>
+        <pin num="3" name="P3" type="input"/>
+        <pin num="4" name="P4" type="input"/>
+        <pin num="5" name="P5" type="input"/>
+        <pin num="6" name="P6" type="input"/>
+        <pin num="7" name="P7" type="input"/>
+        <pin num="8" name="P8" type="input"/>
+        <pin num="9" name="P9" type="input"/>
+        <pin num="10" name="P10" type="input"/>
+        <pin num="11" name="P11" type="input"/>
+        <pin num="12" name="P12" type="input"/>
+        <pin num="13" name="P13" type="input"/>
+        <pin num="14" name="P14" type="input"/>
+        <pin num="15" name="P15" type="input"/>
+        <pin num="16" name="P16" type="input"/>
+        <pin num="17" name="P17" type="input"/>
+        <pin num="18" name="P18" type="input"/>
+        <pin num="19" name="P19" type="input"/>
+        <pin num="20" name="P20" type="input"/>
+        <pin num="21" name="P21" type="input"/>
+        <pin num="22" name="P22" type="input"/>
+        <pin num="23" name="P23" type="input"/>
+        <pin num="24" name="P24" type="input"/>
+        <pin num="25" name="P25" type="input"/>
+        <pin num="26" name="P26" type="input"/>
+        <pin num="27" name="P27" type="input"/>
+        <pin num="28" name="P28" type="input"/>
+        <pin num="29" name="P29" type="input"/>
+        <pin num="30" name="P30" type="input"/>
+        <pin num="31" name="P31" type="input"/>
+        <pin num="32" name="P32" type="input"/>
+        <pin num="33" name="P33" type="input"/>
+        <pin num="34" name="P34" type="input"/>
+        <pin num="35" name="P35" type="input"/>
+        <pin num="36" name="P36" type="input"/>
+        <pin num="37" name="P37" type="input"/>
+        <pin num="38" name="P38" type="input"/>
+        <pin num="39" name="P39" type="input"/>
+        <pin num="40" name="P40" type="input"/>
+        <pin num="41" name="P41" type="input"/>
+        <pin num="42" name="P42" type="input"/>
+        <pin num="43" name="P43" type="input"/>
+        <pin num="44" name="P44" type="input"/>
+        <pin num="45" name="P45" type="input"/>
+        <pin num="46" name="P46" type="input"/>
+        <pin num="47" name="P47" type="input"/>
+        <pin num="48" name="P48" type="input"/>
+        <pin num="49" name="P49" type="input"/>
+        <pin num="50" name="P50" type="input"/>
+        <pin num="51" name="P51" type="input"/>
+        <pin num="52" name="P52" type="input"/>
+        <pin num="53" name="P53" type="input"/>
+        <pin num="54" name="P54" type="input"/>
+        <pin num="55" name="P55" type="input"/>
+        <pin num="56" name="P56" type="input"/>
+        <pin num="57" name="P57" type="input"/>
+        <pin num="58" name="P58" type="input"/>
+        <pin num="59" name="P59" type="input"/>
+        <pin num="60" name="P60" type="input"/>
+        <pin num="61" name="P61" type="input"/>
+        <pin num="62" name="P62" type="input"/>
+        <pin num="63" name="P63" type="input"/>
+        <pin num="64" name="P64" type="input"/>
+        <pin num="65" name="HOLD" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="AmigaComponents" part="LOGO">
+      <description>Any valid LOGO Images can be placed here</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="AmigaComponents" part="MC68000">
+      <footprints>
+        <fp>dip64_800_MOT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC68000</field>
+        <field name="Footprint">dip64_800_MOT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D4" type="unspc"/>
+        <pin num="2" name="D3" type="unspc"/>
+        <pin num="3" name="D2" type="unspc"/>
+        <pin num="4" name="D1" type="unspc"/>
+        <pin num="5" name="D0" type="unspc"/>
+        <pin num="6" name="AS" type="unspc"/>
+        <pin num="7" name="UDS" type="unspc"/>
+        <pin num="8" name="LDS" type="unspc"/>
+        <pin num="9" name="RW" type="unspc"/>
+        <pin num="10" name="DTACK" type="input"/>
+        <pin num="11" name="BG" type="output"/>
+        <pin num="12" name="BGACK" type="input"/>
+        <pin num="13" name="BR" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="CLK" type="input"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="HALT" type="unspc"/>
+        <pin num="18" name="RESET" type="unspc"/>
+        <pin num="19" name="VMA" type="unspc"/>
+        <pin num="20" name="E" type="output"/>
+        <pin num="21" name="VPA" type="input"/>
+        <pin num="22" name="BERR" type="input"/>
+        <pin num="23" name="IPL2" type="input"/>
+        <pin num="24" name="IPL1" type="input"/>
+        <pin num="25" name="IPL0" type="input"/>
+        <pin num="26" name="FC2" type="unspc"/>
+        <pin num="27" name="FC1" type="unspc"/>
+        <pin num="28" name="FC0" type="unspc"/>
+        <pin num="29" name="A1" type="unspc"/>
+        <pin num="30" name="A2" type="unspc"/>
+        <pin num="31" name="A3" type="unspc"/>
+        <pin num="32" name="A4" type="unspc"/>
+        <pin num="33" name="A5" type="unspc"/>
+        <pin num="34" name="A6" type="unspc"/>
+        <pin num="35" name="A7" type="unspc"/>
+        <pin num="36" name="A8" type="unspc"/>
+        <pin num="37" name="A9" type="unspc"/>
+        <pin num="38" name="A10" type="unspc"/>
+        <pin num="39" name="A11" type="unspc"/>
+        <pin num="40" name="A12" type="unspc"/>
+        <pin num="41" name="A13" type="unspc"/>
+        <pin num="42" name="A14" type="unspc"/>
+        <pin num="43" name="A15" type="unspc"/>
+        <pin num="44" name="A16" type="unspc"/>
+        <pin num="45" name="A17" type="unspc"/>
+        <pin num="46" name="A18" type="unspc"/>
+        <pin num="47" name="A19" type="unspc"/>
+        <pin num="48" name="A20" type="unspc"/>
+        <pin num="49" name="VCC" type="power_in"/>
+        <pin num="50" name="A21" type="unspc"/>
+        <pin num="51" name="A22" type="unspc"/>
+        <pin num="52" name="A23" type="unspc"/>
+        <pin num="53" name="GND" type="power_in"/>
+        <pin num="54" name="D15" type="unspc"/>
+        <pin num="55" name="D14" type="unspc"/>
+        <pin num="56" name="D13" type="unspc"/>
+        <pin num="57" name="D12" type="unspc"/>
+        <pin num="58" name="D11" type="unspc"/>
+        <pin num="59" name="D10" type="unspc"/>
+        <pin num="60" name="D9" type="unspc"/>
+        <pin num="61" name="D8" type="unspc"/>
+        <pin num="62" name="D7" type="unspc"/>
+        <pin num="63" name="D6" type="unspc"/>
+        <pin num="64" name="D5" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AmigaComponents">
+      <uri>/home/debian/Progetti/RetroBitLab-Library/AmigaComponents.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/P7">
+      <node ref="J2" pin="58"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="2" name="/P19">
+      <node ref="U1" pin="10"/>
+      <node ref="J2" pin="46"/>
+    </net>
+    <net code="3" name="/P18">
+      <node ref="J2" pin="47"/>
+      <node ref="U1" pin="56"/>
+    </net>
+    <net code="4" name="/P17">
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="48"/>
+    </net>
+    <net code="5" name="/P16">
+      <node ref="J2" pin="49"/>
+      <node ref="U1" pin="57"/>
+    </net>
+    <net code="6" name="/P15">
+      <node ref="U1" pin="8"/>
+      <node ref="J2" pin="50"/>
+    </net>
+    <net code="7" name="/P14">
+      <node ref="J2" pin="51"/>
+      <node ref="U1" pin="58"/>
+    </net>
+    <net code="8" name="/P13">
+      <node ref="U1" pin="7"/>
+      <node ref="J2" pin="52"/>
+    </net>
+    <net code="9" name="/P12">
+      <node ref="U1" pin="59"/>
+      <node ref="J2" pin="53"/>
+    </net>
+    <net code="10" name="/P11">
+      <node ref="U1" pin="6"/>
+      <node ref="J2" pin="54"/>
+    </net>
+    <net code="11" name="/P10">
+      <node ref="U1" pin="60"/>
+      <node ref="J2" pin="55"/>
+    </net>
+    <net code="12" name="/P9">
+      <node ref="U1" pin="5"/>
+      <node ref="J2" pin="56"/>
+    </net>
+    <net code="13" name="/P8">
+      <node ref="U1" pin="61"/>
+      <node ref="J2" pin="57"/>
+    </net>
+    <net code="14" name="/P20">
+      <node ref="U1" pin="55"/>
+      <node ref="J2" pin="45"/>
+    </net>
+    <net code="15" name="/P6">
+      <node ref="U1" pin="62"/>
+      <node ref="J2" pin="59"/>
+    </net>
+    <net code="16" name="/P5">
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="60"/>
+    </net>
+    <net code="17" name="/P4">
+      <node ref="U1" pin="63"/>
+      <node ref="J2" pin="61"/>
+    </net>
+    <net code="18" name="/P3">
+      <node ref="J2" pin="62"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="19" name="/P2">
+      <node ref="J2" pin="63"/>
+      <node ref="U1" pin="64"/>
+    </net>
+    <net code="20" name="/P1">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="64"/>
+    </net>
+    <net code="21" name="/P64">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="22" name="/P63">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="23" name="/P62">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="24" name="/P61">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="25" name="/P60">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="26" name="/P59">
+      <node ref="J2" pin="6"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="27" name="/P44">
+      <node ref="J2" pin="21"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="28" name="/P43">
+      <node ref="U1" pin="22"/>
+      <node ref="J2" pin="22"/>
+    </net>
+    <net code="29" name="/P42">
+      <node ref="U1" pin="44"/>
+      <node ref="J2" pin="23"/>
+    </net>
+    <net code="30" name="/P41">
+      <node ref="U1" pin="21"/>
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="31" name="/P40">
+      <node ref="U1" pin="45"/>
+      <node ref="J2" pin="25"/>
+    </net>
+    <net code="32" name="/P39">
+      <node ref="J2" pin="26"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="33" name="/P38">
+      <node ref="U1" pin="46"/>
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="34" name="/P37">
+      <node ref="U1" pin="19"/>
+      <node ref="J2" pin="28"/>
+    </net>
+    <net code="35" name="/P36">
+      <node ref="J2" pin="29"/>
+      <node ref="U1" pin="47"/>
+    </net>
+    <net code="36" name="/P35">
+      <node ref="J2" pin="30"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="37" name="/P34">
+      <node ref="U1" pin="48"/>
+      <node ref="J2" pin="31"/>
+    </net>
+    <net code="38" name="/P33">
+      <node ref="J2" pin="32"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="39" name="/P58">
+      <node ref="U1" pin="36"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="40" name="/P30">
+      <node ref="U1" pin="50"/>
+      <node ref="J2" pin="35"/>
+    </net>
+    <net code="41" name="/P29">
+      <node ref="U1" pin="15"/>
+      <node ref="J2" pin="36"/>
+    </net>
+    <net code="42" name="/P28">
+      <node ref="J2" pin="37"/>
+      <node ref="U1" pin="51"/>
+    </net>
+    <net code="43" name="VCC">
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J2" pin="33"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J2" pin="38"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="49"/>
+    </net>
+    <net code="44" name="/P26">
+      <node ref="U1" pin="52"/>
+      <node ref="J2" pin="39"/>
+    </net>
+    <net code="45" name="/P25">
+      <node ref="U1" pin="13"/>
+      <node ref="J2" pin="40"/>
+    </net>
+    <net code="46" name="GND">
+      <node ref="J2" pin="41"/>
+      <node ref="J2" pin="34"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="53"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="47" name="/P23">
+      <node ref="U1" pin="12"/>
+      <node ref="J2" pin="42"/>
+    </net>
+    <net code="48" name="/P22">
+      <node ref="J2" pin="43"/>
+      <node ref="U1" pin="54"/>
+    </net>
+    <net code="49" name="/P21">
+      <node ref="J2" pin="44"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="50" name="/P45">
+      <node ref="U1" pin="23"/>
+      <node ref="J2" pin="20"/>
+    </net>
+    <net code="51" name="/P57">
+      <node ref="U1" pin="29"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="52" name="/P56">
+      <node ref="U1" pin="37"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="53" name="/P55">
+      <node ref="U1" pin="28"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="54" name="/P54">
+      <node ref="J2" pin="11"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="55" name="/P53">
+      <node ref="U1" pin="27"/>
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="56" name="/P52">
+      <node ref="J2" pin="13"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="57" name="/P51">
+      <node ref="J2" pin="14"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="58" name="/P50">
+      <node ref="U1" pin="40"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="59" name="/P49">
+      <node ref="J2" pin="16"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="60" name="/P48">
+      <node ref="U1" pin="41"/>
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="61" name="/P47">
+      <node ref="J2" pin="18"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="62" name="/P46">
+      <node ref="U1" pin="42"/>
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="63" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="64" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="65" name="Net-(J2-Pad65)">
+      <node ref="J2" pin="65"/>
+    </net>
+    <net code="66" name="Net-(J2-Pad0)">
+      <node ref="J2" pin="0"/>
+    </net>
+  </nets>
+</export>
